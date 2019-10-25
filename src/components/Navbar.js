@@ -1,6 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
+import twitter from '../img/twitter.svg'
+import linkedIn from '../img/linkedin.svg'
+import stackoverflow from '../img/stackoverflow.svg'
+import devDotTo from '../img/dev-dot-to.svg'
+import email from '../img/email.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -40,9 +45,9 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="container">
-          <div className="navbar-brand">
+          <div className="navbar-brand" >
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <img src={logo} alt="RichTillis.com"  />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -69,12 +74,6 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 About Me
               </Link>
-              {/* <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link> */}
             </div>
             <div className="navbar-end has-text-centered">
               <a
@@ -84,7 +83,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={email} alt="email" />
                 </span>
               </a>
               <a
@@ -94,7 +93,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={twitter} alt="twitter" />
                 </span>
               </a>
               <a
@@ -104,7 +103,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={linkedIn} alt="LinkedIn" />
                 </span>
               </a>
               <a
@@ -114,7 +113,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={stackoverflow} alt="Stack Overflow" />
                 </span>
               </a>
               <a
@@ -124,7 +123,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={devDotTo} alt="Dev.to" />
                 </span>
               </a>
               <a
