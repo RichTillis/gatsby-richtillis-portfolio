@@ -9,13 +9,13 @@ mainpitch:
   description: >
     I'm a fullstack developer with over 10 years professional experience
     developing software. I hold a Master's degree in Software Engineering from
-    Arizona State. My roots are in enterprise-level Java application development
-    but have recently become addicted to front end dev using Angular. More about
-    me in my About page.
+    Arizona State University. My roots are in enterprise-level Java application
+    development but I'm experienced in frontend, middleware, and backend
+    technologies. Check out more about me in my the About Me page.
 description: >-
-  I'm like so many other developers and love experimenting and learning new (to
-  me) technologies. Here's some of the stuff (unrelated to my day-to-day gig)
-  I've been building lately.
+  I'm like so many other developers and love learning new (to me) technologies.
+  Here's some of the stuff unrelated to my day-to-day development that I've been
+  building lately.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -45,12 +45,9 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  heading: Hello
+  description: |+
+
 main:
   heading: Great coffee with no compromises
   description: >
