@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  branch: master
+  # name: git-gateway
+  name: github
+  # branch: master
+  repo: richtillis/gatsby-richtillis-portfolio
 
 media_folder: static/img
 public_folder: /img
