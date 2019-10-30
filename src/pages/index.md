@@ -1,21 +1,21 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: I'm Rich Tillis
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Recent Projects
+subheading: A fullstack developer
 mainpitch:
-  title: Why Kaldi
+  title: Hello World!
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    I'm a fullstack developer with over 10 years professional experience
+    developing software. I hold a Master's degree in Software Engineering from
+    Arizona State. My roots are in enterprise-level Java application development
+    but have recently become addicted to front end dev using Angular. More about
+    me in my About page.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  I'm like so many other developers and love experimenting and learning new (to
+  me) technologies. Here's some of the stuff (unrelated to my day-to-day gig)
+  I've been building lately.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -68,3 +68,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
