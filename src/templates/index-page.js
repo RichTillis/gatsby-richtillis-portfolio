@@ -15,17 +15,17 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
+   <div>
+     {/* <div
+       className="full-width-image margin-top-0"
+       style={{
+        //  backgroundImage: `url(${
+          //  !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        //  })`,
+         backgroundPosition: `top left`,
+         backgroundAttachment: `fixed`,
+       }}
+     >
       <div
         style={{
           display: 'flex',
@@ -61,7 +61,24 @@ export const IndexPageTemplate = ({
           {subheading}
         </h3>
       </div>
-    </div>
+    </div> */}
+      <div style={{
+          display: 'flex',
+          margin: '0 auto',
+          // -webkit-box-pack: justify,
+          // -ms-flex-pack: justify,
+          justifyContent: 'space-between',
+          // -ms-flex-wrap: wrap,
+          flexWrap: 'wrap',
+          maxWidth: '1000px',
+      }}>
+        <div style={{width: '400px'}}>
+          
+          <h2 >I'm Rich, a software engineer.</h2>
+        </div>
+        <div style={{width: '500px'}}>I'm Rich, a software engineer.</div>
+
+      </div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
