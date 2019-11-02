@@ -5,12 +5,14 @@ image: /img/home-jumbotron.jpg
 heading: Recent Projects
 subheading: A fullstack developer
 mainpitch:
+  avatar: /img/headshot.jpg
   title: Hello World!
   description: >
     I'm a fullstack developer with over 10 years professional experience
-    developing software. I hold a Master's degree in Software Engineering from
+    developing software.  I hold a Master's degree in Software Engineering from
     Arizona State University. My roots are in enterprise-level Java application
-    development but I'm experienced in frontend, middleware, and backend
+    development. I see myself more as a generalist than a specialist in one technology/
+    framework. I'm experienced & comfortable with many current frontend, middleware, and backend
     technologies. Check out more about me in my the About Me page.
 description: >-
   I'm like so many other developers and love learning new (to me) technologies.
