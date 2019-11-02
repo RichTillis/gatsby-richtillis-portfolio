@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -70,13 +71,20 @@ export const IndexPageTemplate = ({
           justifyContent: 'space-between',
           // -ms-flex-wrap: wrap,
           flexWrap: 'wrap',
-          maxWidth: '1000px',
+          maxWidth: '1076px',
       }}>
-        <div style={{width: '400px'}}>
-          
+        <div style={{width: '400px',
+                     fontSize: '16px',
+                     color: '#777777',
+                     letterSpacing: '0',
+                     lineHeight: '1.8em'}}>
           <h2 >I'm Rich, a software engineer.</h2>
         </div>
-        <div style={{width: '500px'}}>I'm Rich, a software engineer.</div>
+        <div style={{width: '500px',
+                     fontSize: '16px',
+                     color: '#777777',
+                     letterSpacing: '0',
+                     lineHeight: '1.8em'}}>{mainpitch.description}</div>
 
       </div>
     <section className="section section--gradient">
