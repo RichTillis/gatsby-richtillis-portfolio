@@ -43,6 +43,7 @@ const Navbar = class extends React.Component {
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
+        style={{backgroundColor:'#dfdfdf'}}
       >
         <div className="container">
           <div className="navbar-brand" >
@@ -75,20 +76,20 @@ const Navbar = class extends React.Component {
                 About Me
               </Link>
             </div>
-            <div className="navbar-end has-text-centered">
+            <div className="navbar-end has-text-centered" >
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="mailto:rich@richtillis.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="icon">
-                  <img src={email} alt="email" />
+                <span className="icon" >
+                  <img src={email} alt="email"  />
                 </span>
               </a>
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://twitter.com/richtillis/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -98,7 +99,7 @@ const Navbar = class extends React.Component {
               </a>
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://www.linkedin.com/in/richtillis/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -108,7 +109,7 @@ const Navbar = class extends React.Component {
               </a>
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://www.stackoverflow.com/users/4577397/richtillis/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -118,7 +119,7 @@ const Navbar = class extends React.Component {
               </a>
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://dev.to/richtillis"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -128,7 +129,7 @@ const Navbar = class extends React.Component {
               </a>
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://github.com/richtillis/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
