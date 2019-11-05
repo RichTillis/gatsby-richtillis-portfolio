@@ -5,29 +5,29 @@ image: /img/home-jumbotron.jpg
 heading: Recent Projects
 subheading: A fullstack developer
 mainpitch:
-  avatar: /img/headshot.jpg
   title: Hello World!
   description: >
     I'm a fullstack developer with over 10 years professional experience
     developing software.  I hold a Master's degree in Software Engineering from
     Arizona State University. My roots are in enterprise-level Java application
-    development. I see myself more as a generalist than a specialist in one technology/
-    framework. I'm experienced & comfortable with many current frontend, middleware, and backend
-    technologies. Check out more about me in my the About Me page.
+    development. I see myself more as a generalist than a specialist in one
+    technology/ framework. I'm experienced & comfortable with many current
+    frontend, middleware, and backend technologies. Check out more about me in
+    my the About Me page.
 description: >-
   I'm like so many other developers and love learning new (to me) technologies.
   Here's some of the stuff unrelated to my day-to-day development that I've been
   building lately.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/rsl.png
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
         variety of coffee beans grown with great care for the environment and
         local communities. Check our post or contact us directly for current
         availability.
-    - image: /img/coffee-gear.png
+    - image: /img/GSD_logo.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
         tools for every taste and experience level. No matter if you roast your
