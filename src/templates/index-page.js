@@ -41,10 +41,10 @@ export const IndexPageTemplate = ({
                                     
                         <h2 >Hello World. I'm Rich.</h2>
                       </div>
-                      <div style={{width: '500px'}}>
-                          <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em', paddingBottom: '1.2em'}}>{mainpitch.point1}</div>
-                          <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em', paddingBottom: '1.2em'}}>{mainpitch.point2}</div>
-                          <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em'}}>{mainpitch.point3}</div>                     
+                      <div style={{width: '500px', fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em',}}>
+                          <div style={{ paddingBottom: '1.2em'}}>{mainpitch.point1}</div>
+                          <div style={{ paddingBottom: '1.2em'}}>{mainpitch.point2}</div>
+                          <div >{mainpitch.point3}</div>                     
                       </div>
                     </div>
                   </div>

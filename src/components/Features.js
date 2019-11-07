@@ -8,20 +8,21 @@ const FeatureGrid = ({ gridItems }) => (
     
     {gridItems.map(item => (
       <div key={item.text} className="column is-6">
-        <article className={"blog-list-item tile is-child box notification"}>
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block',
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
+        <article className={"blog-list-item tile is-child box notification"} style={{backgroundColor: '#4291ba33'}}>
+          <section className="section">
+            <div className="has-text-centered">
+              <div
+                style={{
+                  width: '240px',
+                  display: 'inline-block',
+                }}
+              >
+                <PreviewCompatibleImage imageInfo={item} />
+              </div>
             </div>
-          </div>
-          <p>{item.text}</p>
-        </section></article>
+            <p>{item.text}</p>
+          </section>
+        </article>
       </div>
     ))}
   </div>

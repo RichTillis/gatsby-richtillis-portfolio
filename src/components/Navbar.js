@@ -43,7 +43,8 @@ const Navbar = class extends React.Component {
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
-        style={{backgroundColor:'#dfdfdf'}}
+        style={{backgroundColor:'rgba(43, 37, 35, 0.02)'}}
+        //rgba(43, 37, 35, 0.1) for the border if I can ever figure out how to do that
       >
         <div className="container">
           <div className="navbar-brand" >
