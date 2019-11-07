@@ -17,76 +17,44 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
    <div>
-     {/* <div
-       className="full-width-image margin-top-0"
-       style={{
-        //  backgroundImage: `url(${
-          //  !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        //  })`,
-         backgroundPosition: `top left`,
-         backgroundAttachment: `fixed`,
-       }}
-     >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow: 'rgb(66,145,186) 0.5rem 0px 0px, rgb(66,145,186) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(66,145,186)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow: 'rgb(66,145,186) 0.5rem 0px 0px, rgb(66,145,186) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(66,145,186)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
-      </div>
-    </div> */}
-      <div style={{
-          display: 'flex',
-          margin: '0 auto',
-          // -webkit-box-pack: justify,
-          // -ms-flex-pack: justify,
-          justifyContent: 'space-between',
-          // -ms-flex-wrap: wrap,
-          flexWrap: 'wrap',
-          maxWidth: '1076px',
-      }}>
-        <div style={{width: '400px',
-                     fontSize: '16px',
-                     color: '#777777',
-                     letterSpacing: '0',
-                     lineHeight: '1.8em'}}>
-                       
-          <h2 >I'm Rich, a software engineer.</h2>
-        </div>
-        <div style={{width: '500px'}}>
-            <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em', paddingBottom: '1.2em'}}>{mainpitch.point1}</div>
-            <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em', paddingBottom: '1.2em'}}>{mainpitch.point2}</div>
-            <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em'}}>{mainpitch.point3}</div>                     
+      
+    <section className="section section--gradient">
+      <div className="container">
+        <div className="section">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="content">
+                <div className="columns">
+                  <div className="column is-12">
+                    <div style={{
+                                    display: 'flex',
+                                    margin: '0 auto',
+                                    justifyContent: 'space-between',
+                                    flexWrap: 'wrap',
+                                    maxWidth: '1076px',
+                                }}>
+                      <div style={{width: '400px',
+                                  fontSize: '16px',
+                                  color: '#777777',
+                                  letterSpacing: '0',
+                                  lineHeight: '1.8em'}}>
+                                    
+                        <h2 >Hello World. I'm Rich.</h2>
+                      </div>
+                      <div style={{width: '500px'}}>
+                          <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em', paddingBottom: '1.2em'}}>{mainpitch.point1}</div>
+                          <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em', paddingBottom: '1.2em'}}>{mainpitch.point2}</div>
+                          <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em'}}>{mainpitch.point3}</div>                     
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">

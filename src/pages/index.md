@@ -2,15 +2,15 @@
 templateKey: index-page
 title: I'm Rich Tillis
 image: /img/home-jumbotron.jpg
-heading: Recent stuff I've been building.
+heading: Recent stuff I've been building
 subheading: A fullstack developer
 mainpitch:
   title: Hello World!
   point1: I'm a fullstack developer with over 10 years professional experience
-          developing software with a Master's degree in Software Engineering from
+          developing software. I have a Master's degree in Software Engineering from
           Arizona State University. 
-  point2: My roots are in enterprise-level Java EE development. I see 
-          myself more as a generalist than a specialist in one technology.
+  point2: My roots are in enterprise-level Java EE development, however I see 
+          myself more as a generalist than I do as a specialist in any one technology.
   point3: I'm experienced & comfortable with many current frontend, middleware, 
           and backend technologies. You can find more about me and my dev 
           journey in my About Me page.
