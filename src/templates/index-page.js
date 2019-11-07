@@ -37,8 +37,7 @@ export const IndexPageTemplate = ({
                                   fontSize: '16px',
                                   color: '#777777',
                                   letterSpacing: '0',
-                                  lineHeight: '1.8em'}}>
-                                    
+                                  lineHeight: '1.8em'}}>                                    
                         <h2 >Hello World. I'm Rich.</h2>
                       </div>
                       <div style={{width: '500px', fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em',}}>

@@ -9,11 +9,11 @@ mainpitch:
   point1: I'm a fullstack developer with over 10 years professional experience
           developing software. I have a Master's degree in Software Engineering from
           Arizona State University. 
-  point2: My roots are in enterprise-level Java EE development, however I see 
-          myself more as a generalist than I do as a specialist in any one technology.
-  point3: I'm experienced & comfortable with many current frontend, middleware, 
-          and backend technologies. You can find more about me and my dev 
-          journey in my About Me page.
+  point2: I'm experienced & comfortable with many current frontend, middleware, 
+          and backend technologies. My roots are in enterprise-level Java EE 
+          development however I see myself more as a generalist than as a 
+          specialist in any one set of technologies.
+  point3: More about my dev journey in my About Me page.
   description: >
     I'm a fullstack developer with over 10 years professional experience
     developing software.  I have a Master's degree in Software Engineering from
