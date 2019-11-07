@@ -2,51 +2,42 @@
 templateKey: index-page
 title: I'm Rich Tillis
 image: /img/home-jumbotron.jpg
-heading: Recent Projects
+heading: Recent stuff I've been building.
 subheading: A fullstack developer
 mainpitch:
   title: Hello World!
+  point1: I'm a fullstack developer with over 10 years professional experience
+          developing software with a Master's degree in Software Engineering from
+          Arizona State University. 
+  point2: My roots are in enterprise-level Java EE development. I see 
+          myself more as a generalist than a specialist in one technology.
+  point3: I'm experienced & comfortable with many current frontend, middleware, 
+          and backend technologies. You can find more about me and my dev 
+          journey in my About Me page.
   description: >
     I'm a fullstack developer with over 10 years professional experience
-    developing software.  I hold a Master's degree in Software Engineering from
+    developing software.  I have a Master's degree in Software Engineering from
     Arizona State University. My roots are in enterprise-level Java application
     development. I see myself more as a generalist than a specialist in one
     technology/ framework. I'm experienced & comfortable with many current
     frontend, middleware, and backend technologies. Check out more about me in
     my the About Me page.
 description: >-
-  I'm like so many other developers and love learning new (to me) technologies.
-  Here's some of the stuff unrelated to my day-to-day development that I've been
-  building lately.
+  
 intro:
   blurbs:
     - image: /img/rsl.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        Check it out in the app stores! Lead developer. It allows users to stay up to date with all things going on with the club. Cool features include Facebook and email authentication, Facebook Graph API usage, Google Maps integration, and Firebase Cloud Messaging.
     - image: /img/GSD_logo.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        In the Android Play store. A simple Ionic and Angular Todo app. This is my pet project. I use it to test out Ionic components as well as JavaScript patterns and frameworks.
+    - image: /img/tillis_headshot2.jpg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
+        Playing around with Hugo to deploy, using Firebase, a minimal porfolio and blogging website. I liked unique parts of 2 hugo themes so I decided combine them together to explore how Hugo worked to create the site I want.
+    - image: /img/samsar.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Used a Themeforest template, I updated the template to meet the needs of this nonprofit search & rescue organization. Hosted the site using Amazon AWS S3, Cloudfront, and Route 53.
   heading: Hello
   description: |+
 
