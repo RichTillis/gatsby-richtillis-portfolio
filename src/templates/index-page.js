@@ -63,7 +63,7 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="columns">
                   <div className="column is-12" style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em'}}>
-                    <h3 className="has-text-weight-semibold is-size-2" >
+                    <h3 className="has-text-weight-semibold is-size-2" style={{ marginBottom: 0}}>
                       {heading}
                     </h3>
                     <p>{description}</p>

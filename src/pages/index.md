@@ -26,12 +26,12 @@ description: >-
   
 intro:
   blurbs:
-    - image: /img/rsl.png
-      text: >
-        Check it out in the app stores! Lead developer. It allows users to stay up to date with all things going on with the club. Cool features include Facebook and email authentication, Facebook Graph API usage, Google Maps integration, and Firebase Cloud Messaging.
     - image: /img/GSD_logo.png
       text: >
         In the Android Play store. A simple Ionic and Angular Todo app. This is my pet project. I use it to test out Ionic components as well as JavaScript patterns and frameworks.
+    - image: /img/rsl.png
+      text: >
+        Check it out in the app stores! Lead developer. It allows users to stay up to date with all things going on with the club. Cool features include Facebook and email authentication, Facebook Graph API usage, Google Maps integration, and Firebase Cloud Messaging.
     - image: /img/tillis_headshot2.jpg
       text: >
         Playing around with Hugo to deploy, using Firebase, a minimal porfolio and blogging website. I liked unique parts of 2 hugo themes so I decided combine them together to explore how Hugo worked to create the site I want.
