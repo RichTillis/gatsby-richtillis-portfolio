@@ -78,14 +78,14 @@ export const IndexPageTemplate = ({
                      color: '#777777',
                      letterSpacing: '0',
                      lineHeight: '1.8em'}}>
+                       
           <h2 >I'm Rich, a software engineer.</h2>
         </div>
-        <div style={{width: '500px',
-                     fontSize: '16px',
-                     color: '#777777',
-                     letterSpacing: '0',
-                     lineHeight: '1.8em'}}>{mainpitch.description}</div>
-
+        <div style={{width: '500px'}}>
+            <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em', paddingBottom: '1.2em'}}>{mainpitch.point1}</div>
+            <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em', paddingBottom: '1.2em'}}>{mainpitch.point2}</div>
+            <div style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em'}}>{mainpitch.point3}</div>                     
+        </div>
       </div>
     <section className="section section--gradient">
       <div className="container">
@@ -94,8 +94,8 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                  <div className="column is-12" style={{ fontSize: '16px', color: '#777777', letterSpacing: '0', lineHeight: '1.8em'}}>
+                    <h3 className="has-text-weight-semibold is-size-2" >
                       {heading}
                     </h3>
                     <p>{description}</p>
@@ -105,7 +105,7 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
-                      See all projects
+                      Check out all my projects
                     </Link>
                   </div>
                 </div>
@@ -185,6 +185,9 @@ export const pageQuery = graphql`
         subheading
         mainpitch {
           title
+          point1
+          point2
+          point3
           description
         }
         description

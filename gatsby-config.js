@@ -5,6 +5,8 @@ module.exports = {
       'Portfolio website for Rich Tillis, fullstack developer. This site is built with Gatsby, and Netlify CMS. It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
   },
   plugins: [
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -29,8 +31,7 @@ module.exports = {
         name: 'images',
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    
     {
       resolve: 'gatsby-transformer-remark',
       options: {
