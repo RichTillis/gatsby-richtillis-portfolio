@@ -40,12 +40,18 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
-        style={{backgroundColor:'rgba(43, 37, 35, 0.02)'}}
-        //rgba(43, 37, 35, 0.1) for the border if I can ever figure out how to do that
+        style={{backgroundColor:'whitesmoke', 
+                position:'fixed', 
+                left: '0', 
+                right: '0', 
+                zIndex: '1030', 
+                borderTop:'15px solid #006699',
+                borderBottom: '1px solid #dadada'}}
       >
+
         <div className="container">
           <div className="navbar-brand" >
             <Link to="/" className="navbar-item" title="Logo">

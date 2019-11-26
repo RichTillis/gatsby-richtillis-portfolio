@@ -13,7 +13,7 @@ mainpitch:
           and backend technologies. My roots are in enterprise-level Java EE 
           development however I see myself more as a generalist than as a 
           specialist in any one set of technologies.
-  point3: More about my dev journey in my About Me page.
+  point3: Find more about my dev journey in my About Me page.
   description: >
     I'm a fullstack developer with over 10 years professional experience
     developing software.  I have a Master's degree in Software Engineering from
@@ -27,15 +27,19 @@ description: >-
 intro:
   blurbs:
     - image: /img/GSD_logo.png
+      title: Gettin Stuff Done Todo App
       text: >
         In the Android Play store. A simple Ionic and Angular Todo app. This is my pet project. I use it to test out Ionic components as well as JavaScript patterns and frameworks.
     - image: /img/rsl.png
+      title: RSL Soccer App
       text: >
         Check it out in the app stores! Lead developer. It allows users to stay up to date with all things going on with the club. Cool features include Facebook and email authentication, Facebook Graph API usage, Google Maps integration, and Firebase Cloud Messaging.
     - image: /img/tillis_headshot2.jpg
+      title: Portfolio site in Hugo
       text: >
         Playing around with Hugo to deploy, using Firebase, a minimal porfolio and blogging website. I liked unique parts of 2 hugo themes so I decided combine them together to explore how Hugo worked to create the site I want.
     - image: /img/samsar.png
+      title: Search and Rescue
       text: >
         Used a Themeforest template, I updated the template to meet the needs of this nonprofit search & rescue organization. Hosted the site using Amazon AWS S3, Cloudfront, and Route 53.
   heading: Hello

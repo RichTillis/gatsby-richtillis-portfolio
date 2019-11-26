@@ -27,3 +27,44 @@ The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conica
 The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
 
 For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+
+```ts{theme: 'Monokai'}
+import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+
+import { AuthService } from "../../../services/auth/auth.service";
+import { ToastService } from "../../../services/toast/toast.service";
+import { LoadingService } from "../../../services/loading/loading.service";
+import { AlertService } from '../../../services/alert/alert.service';
+
+@Component({
+  selector: 'app-forgot-password',
+  templateUrl: './forgot-password.page.html',
+  styleUrls: ['./forgot-password.page.scss'],
+})
+export class ForgotPasswordPage implements OnInit {
+
+  public forgotPasswordForm: FormGroup;
+
+  validation_messages = {
+    'email': [
+      { type: 'required', message: 'Email address is required.' },
+      { type: 'email', message: 'The format of the email address invalid.' },
+    ]
+  }
+
+  constructor(public formBuilder: FormBuilder,
+    private router: Router,
+    private authService: AuthService,
+    private loadingService: LoadingService,
+    private toastService: ToastService,
+    private alertService: AlertService) {
+    this.forgotPasswordForm = formBuilder.group({
+      email: ['', Validators.compose([Validators.required, Validators.email])],
+    });
+  }
+
+  ngOnInit() {  }
+}
+```

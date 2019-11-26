@@ -72,18 +72,18 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
-                      Check out all my projects
+                      All my projects
                     </Link>
                   </div>
                 </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                    Latest blog posts
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
-                      Read more
+                      All my posts
                     </Link>
                   </div>
                 </div>
@@ -168,6 +168,7 @@ export const pageQuery = graphql`
               }
             }
             text
+            title
           }
           heading
           description

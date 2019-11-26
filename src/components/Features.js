@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import { Link } from 'gatsby'
+
 
 const FeatureGrid = ({ gridItems }) => (
   
@@ -20,7 +22,9 @@ const FeatureGrid = ({ gridItems }) => (
                 <PreviewCompatibleImage imageInfo={item} />
               </div>
             </div>
+            <p>{item.title}</p>
             <p>{item.text}</p>
+            <Link className="button" >Project details →</Link>
           </section>
         </article>
       </div>
