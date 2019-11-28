@@ -10,7 +10,7 @@ const FeatureGrid = ({ gridItems }) => (
     
     {gridItems.map(item => (
       <div key={item.text} className="column is-6">
-        <article className={"blog-list-item tile is-child box notification"} style={{backgroundColor: '#4291ba33'}}>
+        <article className={"blog-list-item tile is-child box notification"} >
           <section className="section">
             <div className="has-text-centered">
               <div
