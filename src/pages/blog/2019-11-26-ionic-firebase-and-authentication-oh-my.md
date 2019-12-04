@@ -50,11 +50,22 @@ $ ionic g page pages/auth/forgotPassword
 
 ##### Move the home folder
 
+
+Find the `theme.js` file.
+
+```text
+root
+  ├── src
+  │   ├── styles
+  │   │   ├── colors.js
+  │   │   ├── globals.js
+  │   │   └── theme.js
+```
+
 Open the project in VSCode (or whatever code editor you prefer). For organizational purposes I like to have the home folder with the other page folders. This tutorial will assume the home folder is located within the pages folder. Go ahead and drag the home folder down one level into the pages folder. Once that's done double check the app-routing.module.ts has updated the new location of home.
 
 ###### app-routing.module.ts
-
-```ts
+```typescript{numberLines: 5}
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
@@ -86,8 +97,8 @@ export class AppRoutingModule { }
 
 Now's a good time to start the app and make sure nothing is breaking.
 
-```
-$ ionic serve
+```bash
+ionic serve
 ```
 
 #### Create the Navigational Flow
@@ -96,7 +107,7 @@ The idea for the logical flow is this: We start at login. From there we can atte
 
 Change the default route path in **app-routing.module.ts** so that the login page is the starting page of the app.
 
-```ts
+```typescript
 path: '', redirectTo: 'login', pathMatch: 'full'
 ```
 ##### Login Page Setup
